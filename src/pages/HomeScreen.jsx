@@ -84,6 +84,7 @@ export const HomeScreen = () => {
             <Experiment />
             <Contact />
             <Footer />
+            <img className="backgroud-image-app" src="./assets/images/socrates.jpg" alt="UwU" />
         </div>
     );
 };

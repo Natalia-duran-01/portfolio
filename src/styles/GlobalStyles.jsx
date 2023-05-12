@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
     }
     .app{
-        visibility:hidden;
+        visibility:hidden; 
     }
     body{
         background-color: ${colors.dark};
@@ -132,6 +132,20 @@ export const GlobalStyle = createGlobalStyle`
     }
     img{
         width: 100%;
+    }
+
+    .backgroud-image-app{
+        position: fixed;
+        top: 0;
+        bottom: 0 ;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        filter: saturate(50%) brightness(50%);
+        opacity: 0.5;
+        width: 100%;
+  height: 100%;
+  object-fit: cover;
     }
 
 @media screen and (max-width: 600px) {

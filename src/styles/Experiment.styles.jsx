@@ -24,7 +24,7 @@ legend{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    background-color: ${colors.secondary};
+    background-color: ${colors.secondary}B3;
     border-radius: 5px;
     padding: 20px;
     transition: all 0.15s ease-in-out;

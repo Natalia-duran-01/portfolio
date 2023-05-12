@@ -124,8 +124,8 @@ const _experiment = [
 ]
 const _works = [
     {
-        tecnology: ["OpenAI-API", "Whatsapp-API", "Python", "MongoDB"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+        tecnology: ["OpenAI-API", "Whatsapp-API", "Python", "Flask", "MongoDB"],
+        image: "./assets/images/gpt.jpg",
         state: 5,
         links: [
             {
@@ -142,7 +142,7 @@ const _works = [
     },
     {
         tecnology: ["Angular", "Firebase"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+        image: "./assets/images/chatroom.png",
         state: 5,
         links: [
             {
@@ -159,7 +159,7 @@ const _works = [
     },
     {
         tecnology: ["React", "React-Native", "NodeJS", "PostgreSQL"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+        image: "./assets/images/tutut.png",
         state: 6,
         links: [
             {
@@ -176,8 +176,8 @@ const _works = [
 
     },
     {
-        tecnology: ["React", "styled-components", "react-transition-group"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+        tecnology: ["React", "styled-components"],
+        image: "./assets/images/portfolio.png",
         state: 5,
         links: [
             {
@@ -195,7 +195,7 @@ const _works = [
     },
     {
         tecnology: ["Flutter", "OpenAI-API", ".Net", "MongoDB"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+        image: "./assets/images/munay.png",
         state: 4,
         links: [
             {
@@ -269,10 +269,6 @@ const hardSkills = [
     {
         name: "Node Js",
         icon: BiCheckDouble,
-    },
-    {
-        name: "Three Js",
-        icon: BiCheck,
     },
     {
         name: "Angular",
@@ -551,7 +547,7 @@ const languajeLabels = [
                     ..._works[4]
 
                 },
-                {
+                /*{
                     title: "Juego 3d de información sobre seguridad",
                     description:
                         `Página de Juego 3D de información sobre seguridad de una forma divertida 
@@ -570,7 +566,7 @@ const languajeLabels = [
                         preferencias del usuario.`,
                     ..._works[6]
 
-                },
+                },*/
 
             ],
         },
@@ -872,7 +868,7 @@ const languajeLabels = [
                     ..._works[4]
 
                 },
-                {
+                /*{
                     title: "3D Security Information Game",
                     description:
                         `3D Security Information Game page is a fun and educational way to learn 
@@ -890,7 +886,7 @@ const languajeLabels = [
                         recommendations based on user preferences.`,
                     ..._works[6]
 
-                }
+                }*/
 
             ],
         },
