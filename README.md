@@ -1,5 +1,5 @@
 <h1 align="center">
-<img width=250 src='https://i.imgur.com/LVyld47.png'/>  
+<img height=250 src='https://i.imgur.com/LVyld47.png'/>  
 <br/>
   💫📋My Portfolio 2023📋💫
 </h1>
