@@ -1,3 +1,6 @@
+<p align="center" style="font-size: 150px;  font-family: monospace; font-weight: bold; margin:0 ">
+   <font face="monospace" color="#EB8589">{</font><font face="monospace" color="#E7DFD4">i</font><font face="monospace" color="#EB8589">}</font>
+</p>
 <h1 align="center">
   💫📋My Portfolio 2023📋💫
 </h1>
