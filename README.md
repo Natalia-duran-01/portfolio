@@ -4,7 +4,7 @@
   💫📋My Portfolio 2023📋💫
 </h1>
 <p align="center">
-    Este es 👉🏻<a href="http://www.isaias.work"> 
+    Este es 👉🏻<a href="http://www.isaias.lat"> 
     mi portafolio
   </a> personal donde comparto algunos de mis proyectos y habilidades como desarrollador web y movil. He construido este sitio con React para demostrar mis habilidades en esta tecnología.</p>
 
@@ -51,7 +51,7 @@
 
 # 🫣 Uso
 
-Puedes ver el sitio web en vivo 👉🏻[aquí](http://www.isaias.work).
+Puedes ver el sitio web en vivo 👉🏻[aquí](http://www.isaias.lat).
 
 # 👋🏻 Contacto
 
