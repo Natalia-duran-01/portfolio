@@ -134,8 +134,8 @@ const _works = [
                 icon: AiFillGithub,
             },
             {
-                title: "Page",
-                link: "",
+                title: "Whatsapp",
+                link: "https://wa.link/2nq10x",
                 icon: AiOutlineLink,
             }
         ]
@@ -152,7 +152,7 @@ const _works = [
             },
             {
                 title: "Page",
-                link: "",
+                link: "https://chat-room-gules.vercel.app/",
                 icon: AiOutlineLink,
             }
         ]
@@ -169,7 +169,7 @@ const _works = [
             },
             {
                 title: "page",
-                link: "",
+                link: "https://tutut-control.vercel.app",
                 icon: AiOutlineLink,
             }
         ]
