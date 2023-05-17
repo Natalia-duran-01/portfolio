@@ -163,8 +163,23 @@ const _works = [
         state: 6,
         links: [
             {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/tutut",
+                title: "Control",
+                link: "https://github.com/isaiahsalah/tutut-control",
+                icon: AiFillGithub,
+            },
+            {
+                title: "Server",
+                link: "https://github.com/isaiahsalah/tutut-server",
+                icon: AiFillGithub,
+            },
+            {
+                title: "Driver-Owner App",
+                link: "https://github.com/isaiahsalah/tutut-driver-owner",
+                icon: AiFillGithub,
+            },
+            {
+                title: "Passenger App",
+                link: "https://github.com/isaiahsalah/tutut-passenger",
                 icon: AiFillGithub,
             },
             {
@@ -187,7 +202,7 @@ const _works = [
             },
             {
                 title: "page",
-                link: "",
+                link: "https://www.isaias.lat/",
                 icon: AiOutlineLink,
             }
         ]
@@ -202,11 +217,6 @@ const _works = [
                 title: "Repository",
                 link: "https://github.com/isaiahsalah/munay",
                 icon: AiFillGithub,
-            },
-            {
-                title: "Page",
-                link: "",
-                icon: AiOutlineLink,
             }
         ]
 
