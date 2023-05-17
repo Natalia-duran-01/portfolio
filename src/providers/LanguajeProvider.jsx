@@ -126,7 +126,7 @@ const _works = [
     {
         tecnology: ["OpenAI-API", "Whatsapp-API", "Python", "Flask", "MongoDB"],
         image: "./assets/images/gpt.jpg",
-        state: 5,
+        state: 6,
         links: [
             {
                 title: "Repository",
@@ -143,7 +143,7 @@ const _works = [
     {
         tecnology: ["Angular", "Firebase"],
         image: "./assets/images/chatroom.png",
-        state: 5,
+        state: 6,
         links: [
             {
                 title: "Repository",
@@ -160,7 +160,7 @@ const _works = [
     {
         tecnology: ["React", "React-Native", "NodeJS", "PostgreSQL"],
         image: "./assets/images/tutut.png",
-        state: 6,
+        state: 5,
         links: [
             {
                 title: "Control",
@@ -193,7 +193,7 @@ const _works = [
     {
         tecnology: ["React", "styled-components"],
         image: "./assets/images/portfolio.png",
-        state: 5,
+        state: 6,
         links: [
             {
                 title: "Repository",
