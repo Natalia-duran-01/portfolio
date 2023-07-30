@@ -960,7 +960,7 @@ const languajeLabels = [
 export const LanguajeContext = createContext();
 
 export const LanguajeProvider = ({ children }) => {
-    const [languaje, setLanguaje] = useState(languajeLabels[0]);
+    const [languaje, setLanguaje] = useState(languajeLabels[1]);
 
     const changeLanguaje = () => {
         if (languaje.ling === "en") {
