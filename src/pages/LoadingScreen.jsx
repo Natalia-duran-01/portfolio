@@ -16,7 +16,7 @@ export const LoadingScreen = () => {
             {/*<audio id="miAudio" src="../resources/audio/keyboard.mp3"></audio>*/}
             <div className="text">
                 <span className="text-alt">{"{"}</span>
-                {"i"}
+                {"n"}
                 <span className="text-alt">{"}"}</span>
             </div>
         </LoadingBox>
