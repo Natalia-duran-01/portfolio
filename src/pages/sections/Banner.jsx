@@ -12,7 +12,7 @@ export const Banner = () => {
         const enlaceDescarga = document.createElement('a');
         enlaceDescarga.href = "./assets/documents/CV.pdf";
         enlaceDescarga.target = '_blank';
-        enlaceDescarga.download = 'Isaias Salas Montesinos.pdf';
+        enlaceDescarga.download = 'Natalia Duran Oliva.pdf';
 
         document.body.appendChild(enlaceDescarga);
         enlaceDescarga.click();
@@ -54,7 +54,7 @@ export const Banner = () => {
                                 node.addEventListener("transitionend", done, false)
                             }
                         >
-                            <h1>Isaias Salas</h1>
+                            <h1>Natalia Duran</h1>
                         </CSSTransition>
                     </SwitchTransition>
 

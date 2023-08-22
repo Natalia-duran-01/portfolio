@@ -632,7 +632,7 @@ const languajeLabels = [
                 ¡acá estoy!`,
             button: "Decí hola",
         },
-        footer: "Desarrollado por Isaias Salas Montesinos",
+        footer: "Desarrollado por Natalia Bolivia Duran Oliva",
     },
     {
         title: "English",
@@ -952,7 +952,7 @@ const languajeLabels = [
                 learn beyond what's taught, here I am!`,
             button: "Say hello",
         },
-        footer: "Developed by Isaias Salas Montesinos",
+        footer: "Developed by Natalia Bolivia Duran Oliva",
     },
 ];
 
