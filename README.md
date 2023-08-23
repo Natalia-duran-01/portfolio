@@ -4,9 +4,9 @@
   💫📋My Portfolio 2023📋💫
 </h1>
 <p align="center">
-    Este es 👉🏻<a href="https://www.isaias.lat"> 
+    Este es 👉🏻<a href="https://www.nataliaduranoliva.com/"> 
     mi portafolio
-  </a> personal donde comparto algunos de mis proyectos y habilidades como desarrollador web y movil. He construido este sitio con React para demostrar mis habilidades en esta tecnología.</p>
+  </a> personal donde comparto algunos de mis proyectos y habilidades como desarrolladora web y móvil. He construido este sitio con React para demostrar mis habilidades en esta tecnología.</p>
 
 # 🧑🏻‍💻 Tecnologías utilizadas
 
@@ -24,7 +24,7 @@
 
    ```sh
    # Ejecuta este comando en el CLI.
-   git clone https://github.com/isaiahsalah/portfolio
+   git clone https://github.com/Natalia-duran-01
    ```
 
 2. **Instalar**
@@ -51,11 +51,11 @@
 
 # 🫣 Uso
 
-Puedes ver el sitio web en vivo 👉🏻[aquí](https://www.isaias.lat).
+Puedes ver el sitio web en vivo 👉🏻[aquí](https://www.nataliaduranoliva.com).
 
 # 👋🏻 Contacto
 
-Si estás interesado en trabajar conmigo o simplemente quieres decir hola, puedes contactarme a través de [isasalas145@gmail.com](mailto:isasalas145@gmail.com), [Linkedin](https://www.linkedin.com/in/isaiahsalah/), [Whatsapp](https://api.whatsapp.com/send?phone=59170881108&text=%20) o [Twitter](https://twitter.com/isaiahSalah).
+Si estás interesado en trabajar conmigo o simplemente quieres decir hola, puedes contactarme a través de [nataliaduranoliva2001@gmail.com](mailto:nataliaduranoliva2001@gmail.com), [Linkedin](https://www.linkedin.com/in/natalia-duran-oliva/), [Whatsapp](https://api.whatsapp.com/send?phone=59178482245&text=%20) o [Twitter](https://twitter.com/Nataliaduran01).
 
 ![UwU](https://i.giphy.com/media/Bs0GXj3ew6xxK/giphy.webp)
 

@@ -24,7 +24,7 @@ export const Logo = () => {
                             <div>{"}"}</div>
                         </div>
                         <div className='line-logo-bottom'></div>
-                        <div className='email'> <a href='mailto:nataliaduranoliva2001@gmail.com' className='text-span'>Isasalas145@gmail.com</a></div>
+                        <div className='email'> <a href='mailto:nataliaduranoliva2001@gmail.com' className='text-span'>nataliaduranoliva2001@gmail.com</a></div>
                     </div>
                 </CSSTransition>
             </SwitchTransition></div>

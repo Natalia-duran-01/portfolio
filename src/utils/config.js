@@ -49,27 +49,27 @@ export const filtro = {
 export const mySocialMedia = [
     {
         title: "Whatsapp",
-        link: "https://api.whatsapp.com/send?phone=59170881108&text=%20",
+        link: "https://api.whatsapp.com/send?phone=59178482245&text=%20",
         icon: RiWhatsappFill
     },
     {
-        title: "Linkedin",
-        link: "https://www.linkedin.com/in/isaiahsalah/",
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/in/natalia-duran-oliva/",
         icon: RiLinkedinFill
     },
     {
         title: "Twitter",
-        link: "https://twitter.com/isaiahSalah",
+        link: "https://twitter.com/Nataliaduran01",
         icon: RiTwitterFill
     },
-    {
-        title: "CodePen",
-        link: "https://codepen.io/isaiahsalah",
-        icon: RiCodepenFill
-    },
+    // {
+    //     title: "CodePen",
+    //     link: "https://codepen.io/isaiahsalah",
+    //     icon: RiCodepenFill
+    // },
     {
         title: "Github",
-        link: "https://github.com/isaiahsalah",
+        link: "https://github.com/Natalia-duran-01",
         icon: RiGithubFill
     }
 ]
