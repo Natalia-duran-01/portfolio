@@ -122,155 +122,171 @@ import { RiCodepenFill } from "react-icons/ri";
 //         ]
 //     }
 // ]
-const _works = [
-    {
-        tecnology: ["OpenAI-API", "Whatsapp-API", "Python", "Flask", "MongoDB"],
-        image: "./assets/images/gpt.jpg",
-        state: 6,
-        links: [
-            {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/gpt-assistant",
-                icon: AiFillGithub,
-            },
-            {
-                title: "Whatsapp",
-                link: "https://wa.link/2nq10x",
-                icon: AiOutlineLink,
-            }
-        ]
-    },
-    {
-        tecnology: ["Angular", "Firebase"],
-        image: "./assets/images/chatroom.png",
-        state: 6,
-        links: [
-            {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/chat-room",
-                icon: AiFillGithub,
-            },
-            {
-                title: "Page",
-                link: "https://chat-room-gules.vercel.app/",
-                icon: AiOutlineLink,
-            }
-        ]
-    },
-    {
-        tecnology: ["React", "React-Native", "NodeJS", "PostgreSQL"],
-        image: "./assets/images/tutut.png",
-        state: 5,
-        links: [
-            {
-                title: "Control",
-                link: "https://github.com/isaiahsalah/tutut-control",
-                icon: AiFillGithub,
-            },
-            {
-                title: "Server",
-                link: "https://github.com/isaiahsalah/tutut-server",
-                icon: AiFillGithub,
-            },
-            {
-                title: "Driver-Owner App",
-                link: "https://github.com/isaiahsalah/tutut-driver-owner",
-                icon: AiFillGithub,
-            },
-            {
-                title: "Passenger App",
-                link: "https://github.com/isaiahsalah/tutut-passenger",
-                icon: AiFillGithub,
-            },
-            {
-                title: "page",
-                link: "https://tutut-control.vercel.app",
-                icon: AiOutlineLink,
-            }
-        ]
+// const _works = [
+//     {
+//         tecnology: ["OpenAI-API", "Whatsapp-API", "Python", "Flask", "MongoDB"],
+//         image: "./assets/images/gpt.jpg",
+//         state: 6,
+//         links: [
+//             {
+//                 title: "Repository",
+//                 link: "https://github.com/isaiahsalah/gpt-assistant",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "Whatsapp",
+//                 link: "https://wa.link/2nq10x",
+//                 icon: AiOutlineLink,
+//             }
+//         ]
+//     },
+//     {
+//         tecnology: ["Angular", "Firebase"],
+//         image: "./assets/images/chatroom.png",
+//         state: 6,
+//         links: [
+//             {
+//                 title: "Repository",
+//                 link: "https://github.com/isaiahsalah/chat-room",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "Page",
+//                 link: "https://chat-room-gules.vercel.app/",
+//                 icon: AiOutlineLink,
+//             }
+//         ]
+//     },
+//     {
+//         tecnology: ["React", "React-Native", "NodeJS", "PostgreSQL"],
+//         image: "./assets/images/tutut.png",
+//         state: 5,
+//         links: [
+//             {
+//                 title: "Control",
+//                 link: "https://github.com/isaiahsalah/tutut-control",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "Server",
+//                 link: "https://github.com/isaiahsalah/tutut-server",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "Driver-Owner App",
+//                 link: "https://github.com/isaiahsalah/tutut-driver-owner",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "Passenger App",
+//                 link: "https://github.com/isaiahsalah/tutut-passenger",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "page",
+//                 link: "https://tutut-control.vercel.app",
+//                 icon: AiOutlineLink,
+//             }
+//         ]
 
-    },
-    {
-        tecnology: ["React", "styled-components"],
-        image: "./assets/images/portfolio.png",
-        state: 6,
-        links: [
-            {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/portfolio",
-                icon: AiFillGithub,
-            },
-            {
-                title: "page",
-                link: "https://www.isaias.lat/",
-                icon: AiOutlineLink,
-            }
-        ]
+//     },
+//     {
+//         tecnology: ["React", "styled-components"],
+//         image: "./assets/images/portfolio.png",
+//         state: 6,
+//         links: [
+//             {
+//                 title: "Repository",
+//                 link: "https://github.com/isaiahsalah/portfolio",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "page",
+//                 link: "https://www.isaias.lat/",
+//                 icon: AiOutlineLink,
+//             }
+//         ]
 
-    },
-    {
-        tecnology: ["Flutter", "OpenAI-API", ".Net", "MongoDB"],
-        image: "./assets/images/munay.png",
-        state: 4,
-        links: [
-            {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/munay",
-                icon: AiFillGithub,
-            }
-        ]
+//     },
+//     {
+//         tecnology: ["Flutter", "OpenAI-API", ".Net", "MongoDB"],
+//         image: "./assets/images/munay.png",
+//         state: 4,
+//         links: [
+//             {
+//                 title: "Repository",
+//                 link: "https://github.com/isaiahsalah/munay",
+//                 icon: AiFillGithub,
+//             }
+//         ]
 
-    },
-    {
-        tecnology: ["ThreeJS", ".Net", "React"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
-        state: 1,
-        links: [
-            {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/information-game",
-                icon: AiFillGithub,
-            },
-            {
-                title: "Page",
-                link: "",
-                icon: AiOutlineLink,
-            }
-        ]
+//     },
+//     {
+//         tecnology: ["ThreeJS", ".Net", "React"],
+//         image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+//         state: 1,
+//         links: [
+//             {
+//                 title: "Repository",
+//                 link: "https://github.com/isaiahsalah/information-game",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "Page",
+//                 link: "",
+//                 icon: AiOutlineLink,
+//             }
+//         ]
 
-    },
-    {
-        tecnology: ["Angular", ".Net"],
-        image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
-        state: 1,
-        links: [
-            {
-                title: "Repository",
-                link: "https://github.com/isaiahsalah/spotify-stats",
-                icon: AiFillGithub,
-            },
-            {
-                title: "page",
-                link: "",
-                icon: AiOutlineLink,
-            }
-        ]
+//     },
+//     {
+//         tecnology: ["Angular", ".Net"],
+//         image: "https://cdn.zendalibros.com/wp-content/uploads/socrates.jpg",
+//         state: 1,
+//         links: [
+//             {
+//                 title: "Repository",
+//                 link: "https://github.com/isaiahsalah/spotify-stats",
+//                 icon: AiFillGithub,
+//             },
+//             {
+//                 title: "page",
+//                 link: "",
+//                 icon: AiOutlineLink,
+//             }
+//         ]
 
-    },
+//     },
 
-]
+// ]
 const hardSkills = [
+    {
+        name: "Spring Boot",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Angular",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "SQL",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "ASP.Net",
+        icon: BiCheck,
+    },
+    {
+        name: "SAP DI API",
+        icon: BiCheck,
+    },
     {
         name: "React",
         icon: BiCheckDouble,
     },
     {
-        name: "React Native",
-        icon: BiCheckDouble,
-    },
-    {
         name: "Flutter",
-        icon: BiCheck,
+        icon: BiCheckDouble,
     },
     {
         name: "Python",
@@ -281,34 +297,92 @@ const hardSkills = [
         icon: BiCheckDouble,
     },
     {
-        name: "Angular",
-        icon: BiCheck,
-    },
-    {
-        name: "GAS",
-        icon: BiCheckDouble,
-    },
-    {
-        name: "PostgreSQL",
-        icon: BiCheckDouble,
-    },
-    {
         name: "Mongo DB",
         icon: BiCheck,
     },
     {
-        name: "Whatsapp API",
+        name: "PostgreSQL",
         icon: BiCheck,
     },
     {
-        name: "Google Maps API",
+        name: "HTML5",
         icon: BiCheckDouble,
     },
     {
-        name: "OpenAI API",
+        name: "CSS",
+        icon: BiCheck,
+    },
+    
+];
+const SpanishSoftskills = [
+    {
+        name: "Autodidacta",
         icon: BiCheckDouble,
     },
-];
+    {
+        name: "Colaboración",
+        icon: BiCheck,
+    },
+    {
+        name: "Liderazgo",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Comunicación",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Adaptación",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Planificación",
+        icon: BiCheck,
+    },
+    {
+        name: "Gestión de problemas",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Análisis",
+        icon: BiCheckDouble,
+    },
+]
+const EnglishSoftSkills = [
+    {
+        name: "Autodidact",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Collaboration",
+        icon: BiCheck,
+    },
+    {
+        name: "Leadership",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Communication",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Adaptation",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Planning",
+        icon: BiCheck,
+    },
+    {
+        name: "Problem management",
+        icon: BiCheckDouble,
+    },
+    {
+        name: "Analysis",
+        icon: BiCheckDouble,
+    },
+]
+
 const languajeLabels = [
     {
         title: "Español",
@@ -322,10 +396,10 @@ const languajeLabels = [
                 title: "Experiencia",
                 link: "experience",
             },
-            {
-                title: "Trabajos",
-                link: "works",
-            },
+            // {
+            //     title: "Trabajos",
+            //     link: "works",
+            // },
             // {
             //     title: "Experimentos",
             //     link: "experiments",
@@ -337,27 +411,27 @@ const languajeLabels = [
         ],
         banner: {
             title: "Hola mi nombre es",
-            subtitle: "Desarrollo cosas pa' la web.",
-            description: `Soy un ingeniero en sistemas que crea experiencias digitales 
-                excepcionales. Actualmente me enfoco en desarrollar productos 
-                accesibles y centrados en el usuario. Busco soluciones creativas 
-                y efectivas para problemas de clientes y me mantengo actualizado 
-                en tecnología para mejorar mi trabajo.`,
+            subtitle: "Desarrolladora de Software.",
+            description: `Soy una ingeniera de sistemas que desarrolla software tanto frontend 
+            como backend según las necesidades del usuario. 
+            Siempre estoy buscando nuevos retos y desafíos que me permitan crear 
+            soluciones innovadoras y emocionantes, mientras mejoro mis habilidades
+            en el proceso.`,
             button: "Descargar CV",
         },
         about: {
             title: "Lo que debes saber de mí",
-            description1: `¡Qué tal🫡, futuro empleador! Soy un desarrollador web (y a veces movil) 
-                y no, no soy ningún mago o artista, aunque a veces me siento como uno. 
-                Soy como un arquitecto digital que construye software o como un pintor 
-                que dibuja con código. Como sea🫠, me encargo de desarrollar sitios web 
-                increíbles y fáciles de usar`,
-            description2: `☝️🤓Disfruto trabajar en equipo (También solo UwU) y colaborar con diseñadores 
-                y otros desarrolladores para crear proyectos llamativos y funcionales.`,
-            description3: `Mi tolerancia a la frustración arraigada de mis constantes fracasos (amorosos🤡) me 
-                hicieron un terco y perspicaz detective a la hora de solucionar problemas de código👾,
-                no me rindo fácilmente hasta encontrar la solución adecuada. También me las apaño 
-                con tecnologias nuevas, me gusta estar al tanto de las últimas tendencias.🧑🏻‍💻`,
+            description1: `¡Qué tal! Soy una apasionada desarrolladora de software 
+                con más de 2 años de experiencia en la creación y optimización de aplicaciones web y móviles. 
+                A lo largo de mi carrera, he trabajado con una variedad de tecnologías y frameworks, 
+                desde ASP.Net, SAP DI API, Flutter, hasta Spring Boot, Angular, React, 
+                lo que me ha permitido desarrollar una visión integral del ciclo de desarrollo de software. 
+                
+                Además de mis habilidades técnicas, me enorgullece mi capacidad para trabajar en equipo, 
+                mi constante deseo de aprender y mi compromiso con la excelencia en cada proyecto en el que participo.`,
+            description2: `Mi enfoque siempre ha sido crear soluciones eficientes y escalables que satisfagan 
+                las necesidades del usuario y superen las expectativas del cliente.`,
+            description3: `Me gusta el café, charlar, viajar y conocer el mundo, me gusta estar al tanto de las últimas tendencias.🧑🏻‍💻`,
             skill: {
                 description:
                     "Aquí hay algunas tecnologías con las que he estado trabajando y habilidades que he desarrollado recientemente:",
@@ -367,32 +441,7 @@ const languajeLabels = [
                 },
                 softskill: {
                     title: "Mis habilidades blandas",
-                    skills: [
-                        {
-                            name: "Autodidacta",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Colaboración",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Perspicacia",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Comunicacion",
-                            icon: BiCheck,
-                        },
-                        {
-                            name: "Adaptacion",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Planificación",
-                            icon: BiCheck,
-                        },
-                    ],
+                    skills: SpanishSoftskills
                 },
             },
         },
@@ -400,186 +449,181 @@ const languajeLabels = [
             title: "¿Dónde he trabajado?",
             jobs: [
                 {
-                    title: "Desarrollador",
-                    position: "Desarrollador",
-                    company: "Autónomo",
-                    range: "Marzo 2023 - Actualidad",
+                    title: "Analista de Sistemas",
+                    position: "Analista de Sistemas",
+                    company: "Santa Cruz Vida y Salud",
+                    range: "Octubre 2022 - Actualidad",
                     description: [
-                        `Desarrollar e implementar sistemas de inteligencia artificial 
-                        conversacional para aplicaciones de mensajería con OpenAI API y WhatsApp API`,
-                        `Diseñar, desarrollar e implementar aplicaciones móviles con Flutter o 
-                        React Native para iOS y Android, integrando servicios web y 
-                        diseñando una interfaz de usuario atractiva 
-                        y fácil de usar.`,
-                        `Diseñar, desarrollar e implementar aplicaciones web utilizando el 
-                        framework React, integrando servicios web, realizando pruebas 
-                        y depuración, optimizando el rendimiento, diseñando una interfaz 
-                        de usuario atractiva y fácil de usar`,
+                        `Desarrollé el módulo de personas, mejorando la eficiencia 
+                        en la gestión de datos de los clientes asegurados.`,
+                        `Lideré la migración de la base de datos usando SQL, 
+                        transfiriendo y optimizando los registros existentes.`,
+                        `Gestioné el soporte mensual para el sistema AMLC, 
+                        coordinando múltiples áreas y asegurando una tasa de precisión
+                        del 99% en las cargas de datos.`,
                     ],
                 },
                 {
-                    title: "Auxiliar",
-                    position: "Auxiliar de CPD",
-                    company: "UEB",
-                    range: "Agosto 2021 - Noviembre de 2021",
+                    title: "Desarrolladora de Software",
+                    position: "Pasante",
+                    company: "Sociedad Synergy Ltda.",
+                    range: "Febrero 2022 - Octubre de 2022",
                     description: [
-                        `Supervisar los sistemas informáticos y de comunicaciones 
-                        del Centro de Procesamiento de Datos (CPD) para detectar cualquier fallo o irregularidad en 
-                        el funcionamiento.`,
-                        `Crear y desarrollar scripts personalizados para automatizar 
-                        procesos específicos en aplicaciones de Google, utilizando el 
-                        lenguaje de programación Google App Script.`,
-                        `Integrar diferentes aplicaciones de Google para mejorar la 
-                        eficiencia y productividad, mediante el uso de scripts 
-                        personalizados.`,
-                        `Realizar pruebas exhaustivas y depuración de los scripts, 
-                        asegurándose de que los cambios no afecten negativamente el 
-                        funcionamiento de las aplicaciones de Google.`,
+                        `Diseñé el módulo de entrega, logrando una integración con 
+                        SDK DI API para SAP B1, permitiendo un servicio que unió 
+                        el ERP para mostrar entregas diarias pendientes, parciales y totales, 
+                        mejorando la transparencia operativa.`,
+                        `Desarrollé una aplicación web dentro del módulo de entrega que
+                        consumía el servicio de SAP, brindando a los empleados del almacén
+                        información en tiempo real sobre los movimientos de entrega diarios, 
+                        lo que mejoró la eficiencia del almacén.`
                     ],
                 },
                 {
-                    title: "Contable",
-                    position: "Secretario Contable",
-                    company: "Linea58",
-                    range: "Diciembre 2020 - Marzo de 2021",
+                    title: "Desarrolladora de Software",
+                    position: "Freelancer",
+                    company: "Grupo Editorial La Hoguera",
+                    range: "Abril 2021 - Noviembre de 2021",
                     description: [
-                        `Registrar y clasificar las transacciones financieras diarias de la empresa, 
-                        incluyendo facturas de venta, recibos de ingresos, facturas de gastos y 
-                        comprobantes de pago.`,
+                        `Desarrollé un servicio de integración con SDK DI API SAP B1, 
+                        permitiendo la conectividad ERP para registrar y mostrar las ventas 
+                        por proveedor, optimizando la eficiencia del flujo de trabajo.`,
                         `Asegurarse de que los registros contables de la empresa concuerden con 
                         las transacciones bancarias y realizar ajustes en caso de discrepancias.`,
-                        `Supervisar y administrar las cuentas por pagar y por cobrar de la empresa, 
-                        asegurándose de que se paguen las facturas a tiempo y de que se cobren 
-                        las deudas pendientes.`,
+                        `Desarrollé una aplicación móvil que consume este servicio, capacitando a los vendedores a:
+                        1. Ver listas de productos y realizar pedidos directamente desde la aplicación.
+                        2. Consultar el estado del pedido en tiempo real.`,
+                        `Esta implementación condujo a la eliminación completa de los formularios
+                        utilizados anteriormente para el registro de ventas.`,
                     ],
                 },
-                {
-                    title: "Desarrollador",
-                    position: "Desarrollador",
-                    company: "SkyHub",
-                    range: "Diciembre 2019 - Marzo de 2020",
-                    description: [
-                        `Configurar e integrar chatbots con diferentes sistemas 
-                        y herramientas de marketing, para mejorar la eficiencia 
-                        y la productividad de las empresas.`,
-                        `Diseñar y desarrollar sitios web personalizados, 
-                        utilizando lenguajes de programación como HTML, CSS 
-                        y JavaScript`,
-                        `Trabajar en colaboración con diseñadores gráficos, 
-                        equipos de marketing y otros desarrolladores para 
-                        crear sitios web innovadores y atractivos para los 
-                        usuarios.`,
-                    ],
-                },
-                {
-                    title: "Desarrollador",
-                    position: "Desarrollador",
-                    company: "Alfa",
-                    range: "Mayo 2019 - Noviembre de 2019",
-                    description: [
-                        `Diseñar y desarrollar soluciones de automatización 
-                        de informes utilizando Google Apps Script para diversas 
-                        aplicaciones de Google, como Google Sheets, Google Drive, 
-                        Google Docs, entre otras.`,
-                        `Mantener y mejorar las soluciones existentes de automatización 
-                        de informes, realizando actualizaciones y ajustes según sea necesario.`,
-                        `Diseñar y desarrollar sitios web utilizando WordPress, 
-                        trabajando con temas y plugins personalizados para adaptarse 
-                        a las necesidades del cliente.`,
-                        `Diseñar y desarrollar chatbots para plataformas como ManyChat 
-                        y Dialogflow, asegurándose de que los chatbots sean personalizados 
-                        para cumplir con los requisitos de los clientes.`,
-                    ],
-                },
+                // {
+                //     title: "Desarrollador",
+                //     position: "Desarrollador",
+                //     company: "SkyHub",
+                //     range: "Diciembre 2019 - Marzo de 2020",
+                //     description: [
+                //         `Configurar e integrar chatbots con diferentes sistemas 
+                //         y herramientas de marketing, para mejorar la eficiencia 
+                //         y la productividad de las empresas.`,
+                //         `Diseñar y desarrollar sitios web personalizados, 
+                //         utilizando lenguajes de programación como HTML, CSS 
+                //         y JavaScript`,
+                //         `Trabajar en colaboración con diseñadores gráficos, 
+                //         equipos de marketing y otros desarrolladores para 
+                //         crear sitios web innovadores y atractivos para los 
+                //         usuarios.`,
+                //     ],
+                // },
+                // {
+                //     title: "Desarrollador",
+                //     position: "Desarrollador",
+                //     company: "Alfa",
+                //     range: "Mayo 2019 - Noviembre de 2019",
+                //     description: [
+                //         `Diseñar y desarrollar soluciones de automatización 
+                //         de informes utilizando Google Apps Script para diversas 
+                //         aplicaciones de Google, como Google Sheets, Google Drive, 
+                //         Google Docs, entre otras.`,
+                //         `Mantener y mejorar las soluciones existentes de automatización 
+                //         de informes, realizando actualizaciones y ajustes según sea necesario.`,
+                //         `Diseñar y desarrollar sitios web utilizando WordPress, 
+                //         trabajando con temas y plugins personalizados para adaptarse 
+                //         a las necesidades del cliente.`,
+                //         `Diseñar y desarrollar chatbots para plataformas como ManyChat 
+                //         y Dialogflow, asegurándose de que los chatbots sean personalizados 
+                //         para cumplir con los requisitos de los clientes.`,
+                //     ],
+                // },
             ],
         },
-        works: {
-            title: "Algunas cosas que he hecho",
-            work: [
-                {
-                    title: "Asistente Psicologico Virtual",
-                    description:
-                        `Este es un software diseñado para brindar apoyo emocional 
-                        y psicológico a través de una conversación simulada en línea.
-                        La integración de WhatsApp API permite que el asistente esté disponible 
-                        en la aplicación de mensajería instantánea más popular del mundo, 
-                        lo que lo hace accesible y fácil de usar para los usuarios. Además, 
-                        la integración de OpenAI API, una plataforma de inteligencia artificial 
-                        avanzada, le permite al asistente mantener conversaciones fluidas y 
-                        personalizadas, y ofrecer respuestas precisas y contextuales para las 
-                        necesidades específicas de cada usuario.`,
-                    ..._works[0]
-                },
-                {
-                    title: "Sala de Chat",
-                    description:
-                        `Es una aplicación de chat en tiempo real con una arquitectura moderna 
-                        y eficiente, que permite a los usuarios comunicarse de manera rápida 
-                        y fácil en grupos en línea. Todo hecho con Angular y Firebase.`,
-                    ..._works[1]
-                },
-                {
-                    title: "Sistema de monitoreo GPS de transporte público",
-                    description:
-                        `Sistema que permite el seguimiento en tiempo real de 
-                        vehículos de transporte público mediante tecnología GPS. 
-                        Los usuarios pueden ver la ubicación de los 
-                        vehículos en un mapa y obtener información en tiempo 
-                        real sobre su trayectoria, velocidad y tiempo estimado 
-                        de llegada. Además, el sistema puede generar alertas 
-                        para los administradores en caso de retrasos, cambios 
-                        en la ruta o problemas técnicos en los vehículos. 
-                        Este tipo de sistema puede mejorar la eficiencia y 
-                        seguridad del transporte público, así como brindar 
-                        una mejor experiencia a los usuarios.`,
-                    ..._works[2]
+        // works: {
+        //     title: "Algunas cosas que he hecho",
+        //     work: [
+        //         {
+        //             title: "Asistente Psicologico Virtual",
+        //             description:
+        //                 `Este es un software diseñado para brindar apoyo emocional 
+        //                 y psicológico a través de una conversación simulada en línea.
+        //                 La integración de WhatsApp API permite que el asistente esté disponible 
+        //                 en la aplicación de mensajería instantánea más popular del mundo, 
+        //                 lo que lo hace accesible y fácil de usar para los usuarios. Además, 
+        //                 la integración de OpenAI API, una plataforma de inteligencia artificial 
+        //                 avanzada, le permite al asistente mantener conversaciones fluidas y 
+        //                 personalizadas, y ofrecer respuestas precisas y contextuales para las 
+        //                 necesidades específicas de cada usuario.`,
+        //             ..._works[0]
+        //         },
+        //         {
+        //             title: "Sala de Chat",
+        //             description:
+        //                 `Es una aplicación de chat en tiempo real con una arquitectura moderna 
+        //                 y eficiente, que permite a los usuarios comunicarse de manera rápida 
+        //                 y fácil en grupos en línea. Todo hecho con Angular y Firebase.`,
+        //             ..._works[1]
+        //         },
+        //         {
+        //             title: "Sistema de monitoreo GPS de transporte público",
+        //             description:
+        //                 `Sistema que permite el seguimiento en tiempo real de 
+        //                 vehículos de transporte público mediante tecnología GPS. 
+        //                 Los usuarios pueden ver la ubicación de los 
+        //                 vehículos en un mapa y obtener información en tiempo 
+        //                 real sobre su trayectoria, velocidad y tiempo estimado 
+        //                 de llegada. Además, el sistema puede generar alertas 
+        //                 para los administradores en caso de retrasos, cambios 
+        //                 en la ruta o problemas técnicos en los vehículos. 
+        //                 Este tipo de sistema puede mejorar la eficiencia y 
+        //                 seguridad del transporte público, así como brindar 
+        //                 una mejor experiencia a los usuarios.`,
+        //             ..._works[2]
 
-                },
-                {
-                    title: "Mi portafolio",
-                    description:
-                        `Un sitio web diseñado para mostrar mi trabajo y mis 
-                        habilidades como desarrollador de software. Se construyó 
-                        utilizando React, que proporciona una forma eficiente de 
-                        crear interfaces de usuario interactivas y responsivas.`,
-                    ..._works[3]
+        //         },
+        //         {
+        //             title: "Mi portafolio",
+        //             description:
+        //                 `Un sitio web diseñado para mostrar mi trabajo y mis 
+        //                 habilidades como desarrollador de software. Se construyó 
+        //                 utilizando React, que proporciona una forma eficiente de 
+        //                 crear interfaces de usuario interactivas y responsivas.`,
+        //             ..._works[3]
 
-                },
-                {
-                    title: "Munay",
-                    description:
-                        `"Munay" es una aplicación de pareja completa que ayuda a las 
-                        parejas a profundizar en su relación y a fortalecer su conexión emocional. 
-                        Con características únicas como la sección de preguntas, los consejos 
-                        personalizados y la integración de ChatGPT, esta aplicación es una 
-                        herramienta valiosa para cualquier pareja que quiera 
-                        mejorar su relación.`,
-                    ..._works[4]
+        //         },
+        //         {
+        //             title: "Munay",
+        //             description:
+        //                 `"Munay" es una aplicación de pareja completa que ayuda a las 
+        //                 parejas a profundizar en su relación y a fortalecer su conexión emocional. 
+        //                 Con características únicas como la sección de preguntas, los consejos 
+        //                 personalizados y la integración de ChatGPT, esta aplicación es una 
+        //                 herramienta valiosa para cualquier pareja que quiera 
+        //                 mejorar su relación.`,
+        //             ..._works[4]
 
-                },
-                /*{
-                    title: "Juego 3d de información sobre seguridad",
-                    description:
-                        `Página de Juego 3D de información sobre seguridad de una forma divertida 
-                        y educativa de aprender sobre seguridad en línea y mejorar tus habilidades 
-                        en este tema crucial en la era digital actual.`,
-                    ..._works[5]
+        //         },
+        //         /*{
+        //             title: "Juego 3d de información sobre seguridad",
+        //             description:
+        //                 `Página de Juego 3D de información sobre seguridad de una forma divertida 
+        //                 y educativa de aprender sobre seguridad en línea y mejorar tus habilidades 
+        //                 en este tema crucial en la era digital actual.`,
+        //             ..._works[5]
 
-                },
-                {
-                    title: "Spotify Stats",
-                    description:
-                        `Una aplicación que utiliza la API de Spotify para mostrar estadísticas 
-                        de uso y reproducción de música de los usuarios en una interfaz de 
-                        usuario limpia y moderna creada con Angular. La aplicación también 
-                        incluye recomendaciones de canciones y artistas, basadas en las 
-                        preferencias del usuario.`,
-                    ..._works[6]
+        //         },
+        //         {
+        //             title: "Spotify Stats",
+        //             description:
+        //                 `Una aplicación que utiliza la API de Spotify para mostrar estadísticas 
+        //                 de uso y reproducción de música de los usuarios en una interfaz de 
+        //                 usuario limpia y moderna creada con Angular. La aplicación también 
+        //                 incluye recomendaciones de canciones y artistas, basadas en las 
+        //                 preferencias del usuario.`,
+        //             ..._works[6]
 
-                },*/
+        //         },*/
 
-            ],
-        },
+        //     ],
+        // },
         // experiment: {
         //     title: "Algunos pequeños experimentos",
         //     experiments: [
@@ -626,10 +670,9 @@ const languajeLabels = [
             title: "¿Y ahora?",
             subtitle: "Ponete en contacto",
             description:
-                `En resumen, soy un apasionado por la tecnología que se divierte 
-                construyendo cosas en línea. Si querés un desarrollador que sea 
+                `En resumen, soy una apasionada por la tecnología y aprender. Si querés una desarrolladora que sea 
                 eficiente, amigable y tenga ganas de aprender más allá de lo enseñado, 
-                ¡acá estoy!`,
+                ¡estoy acá!`,
             button: "Decí hola",
         },
         footer: "Desarrollado por Natalia Bolivia Duran Oliva",
@@ -646,10 +689,10 @@ const languajeLabels = [
                 title: "Experience",
                 link: "experience",
             },
-            {
-                title: "Works",
-                link: "works",
-            },
+            // {
+            //     title: "Works",
+            //     link: "works",
+            // },
             // {
             //     title: "Experiments",
             //     link: "experiments",
@@ -661,28 +704,25 @@ const languajeLabels = [
         ],
         banner: {
             title: "Hi my name is",
-            subtitle: "I develop things for the web.",
-            description: `I am a systems engineer who creates 
-            exceptional digital experiences. Currently, my focus 
-            is on developing accessible and user-centered products. 
-            I seek creative and effective solutions for client 
-            problems and stay up-to-date with technology to improve 
-            my work.`,
+            subtitle: "FullStack Developer.",
+            description: `I am a systems engineer who develops both frontend and backend software based on user needs.
+            I am always looking for new challenges and challenges that allow me to create innovative and
+            exciting solutions, while improving my skills in the process.`,
             button: "Download CV",
         },
         about: {
             title: "What you should know about me",
-            description1: `Hello🫡 future employer! I'm a web (and sometimes mobile) developer, 
-            and no, I'm not a wizard or an artist, although sometimes I feel like one. 
-            I'm like a digital architect who builds software or like a painter who draws 
-            with code. Anyway🫠, I'm responsible for developing amazing and easy-to-use websites.`,
-            description2: `☝️🤓I enjoy working in teams (also alone UwU) and collaborating with 
-            designers and other developers to create eye-catching and functional projects.`,
-            description3: `My rooted tolerance for frustration from my constant (romantic🤡) 
-            failures has made me a stubborn and insightful detective when it comes to solving 
-            code problems👾. I don't give up easily until I find the right solution. 
-            I also manage with new technologies, I like to stay up-to-date with the 
-            latest trends.🧑🏻‍💻`,
+            description1: `How are you! I am a passionate software developer.
+            With more than 2 years of experience in the creation and optimization of web and mobile applications.
+            Throughout my career, I have worked with a variety of technologies and frameworks,
+            from ASP.Net, SAP DI API, Flutter, to Spring Boot, Angular, React,
+            which has allowed me to develop a comprehensive vision of the software development cycle.
+            
+            In addition to my technical skills, I pride myself on my ability to work in a team,
+            my constant desire to learn and my commitment to excellence in every project in which I participate.`,
+            description2: `My focus has always been to create efficient and scalable solutions that satisfy
+            user needs and exceed customer expectations.`,
+            description3: `I like coffee, discuss, traveling and seeing the world, I like to be aware of the latest trends.🧑🏻‍💻`,
             skill: {
                 description:
                     `Here are some technologies I've been working with and skills 
@@ -693,32 +733,7 @@ const languajeLabels = [
                 },
                 softskill: {
                     title: "My soft skills",
-                    skills: [
-                        {
-                            name: "Self-taught",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Collaborative",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Insightful",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Communicative",
-                            icon: BiCheck,
-                        },
-                        {
-                            name: "Adaptive",
-                            icon: BiCheckDouble,
-                        },
-                        {
-                            name: "Strategic",
-                            icon: BiCheck,
-                        },
-                    ],
+                    skills: EnglishSoftSkills
                 },
             },
         },
@@ -726,180 +741,168 @@ const languajeLabels = [
             title: "Where have I worked?",
             jobs: [
                 {
-                    title: "Developer",
+                    title: " Systems Analyst",
+                    position: "Systems Analyst",
+                    company: "Santa Cruz Vida y Salud",
+                    range: "October 2022 - Present",
+                    description: [
+                        `I developed the people module, improving 
+                        the efficiency of data management of insured clients.`,
+                        `Led the database migration using SQL, 
+                        transferring and optimizing existing records.`,
+                        `Managed monthly support for the AMLC system, 
+                        coordinating across multiple departments and ensuring 
+                        a 99% accuracy rate in data uploads.`,
+                    ],
+                },
+                // {
+                //     title: "Assistant",
+                //     position: "CPD Assistant",
+                //     company: "UEB",
+                //     range: "August 2021 - November 2021",
+                //     description: [
+                //         `Supervise the computer and communication systems 
+                //         of the Data Processing Center (DPC) to detect any 
+                //         failure or irregularity in their operation.`,
+                //         `Create and develop customized scripts to automate 
+                //         specific processes in Google applications, using 
+                //         the Google App Script programming language.`,
+                //         `Integrate different Google applications to improve 
+                //         efficiency and productivity, through the use of 
+                //         customized scripts.`,
+                //         `Perform thorough testing and debugging of the 
+                //         scripts, ensuring that changes do not negatively 
+                //         affect the operation of the Google applications.`,
+                //     ],
+                // },
+                // {
+                //     title: "Accountant",
+                //     position: "Secretary Accountant",
+                //     company: "Linea58",
+                //     range: "December 2020 - March 2021",
+                //     description: [
+                //         `Register and classify daily financial transactions 
+                //         of the company, including sales invoices, income 
+                //         receipts, expense invoices, and payment vouchers.`,
+                //         `AEnsure that the company's accounting records 
+                //         match the banking transactions and make adjustments 
+                //         in case of discrepancies.`,
+                //         `Supervise and manage the company's accounts payable 
+                //         and accounts receivable, ensuring that invoices are 
+                //         paid on time and outstanding debts are collected.`,
+                //     ],
+                // },
+                {
+                    title: "Developer FullStack",
+                    position: "Intern",
+                    company: "Sociedad Synergy Ltda.",
+                    range: "February 2022 - October 2022",
+                    description: [
+                        `Engineered the delivery module, achieving an integration with 
+                        SDK DI API for SAP B1, enabling a service that bridged 
+                        the ERP to display daily pending, partial, and total deliveries,
+                        enhancing operational transparency.`,
+                        `Developed a Web Application for Delivery Module that consumed 
+                        the SAP service, providing warehouse users with real-time 
+                        insights into daily delivery movements.`
+                    ],
+                },
+                {
+                    title: "Developer FullStack",
                     position: "Developer",
-                    company: "Freelancer",
-                    range: "March 2023 - Present",
+                    company: "Grupo Editorial La Hoguera",
+                    range: "April 2021 - November 2021",
                     description: [
-                        `Developing and implementing conversational 
-                        AI systems for messaging applications using 
-                        OpenAI API and WhatsApp API.`,
-                        `Designing, developing, and implementing 
-                        mobile applications for iOS and Android 
-                        using Flutter or React Native, integrating 
-                        web services and designing an attractive 
-                        and user-friendly interface.`,
-                        `Designing, developing, and implementing 
-                        web applications using React framework, 
-                        integrating web services, conducting testing 
-                        and debugging, optimizing performance, and 
-                        designing an attractive and user-friendly 
-                        interface.`,
-                    ],
-                },
-                {
-                    title: "Assistant",
-                    position: "CPD Assistant",
-                    company: "UEB",
-                    range: "August 2021 - November 2021",
-                    description: [
-                        `Supervise the computer and communication systems 
-                        of the Data Processing Center (DPC) to detect any 
-                        failure or irregularity in their operation.`,
-                        `Create and develop customized scripts to automate 
-                        specific processes in Google applications, using 
-                        the Google App Script programming language.`,
-                        `Integrate different Google applications to improve 
-                        efficiency and productivity, through the use of 
-                        customized scripts.`,
-                        `Perform thorough testing and debugging of the 
-                        scripts, ensuring that changes do not negatively 
-                        affect the operation of the Google applications.`,
-                    ],
-                },
-                {
-                    title: "Accountant",
-                    position: "Secretary Accountant",
-                    company: "Linea58",
-                    range: "December 2020 - March 2021",
-                    description: [
-                        `Register and classify daily financial transactions 
-                        of the company, including sales invoices, income 
-                        receipts, expense invoices, and payment vouchers.`,
-                        `AEnsure that the company's accounting records 
-                        match the banking transactions and make adjustments 
-                        in case of discrepancies.`,
-                        `Supervise and manage the company's accounts payable 
-                        and accounts receivable, ensuring that invoices are 
-                        paid on time and outstanding debts are collected.`,
-                    ],
-                },
-                {
-                    title: "Developer",
-                    position: "Developer",
-                    company: "SkyHub",
-                    range: "December 2019 - March 2020",
-                    description: [
-                        `Configure and integrate chatbots with different 
-                        marketing systems and tools to improve efficiency 
-                        and productivity of businesses.`,
-                        `Design and develop customized websites using 
-                        programming languages such as HTML, CSS, and 
-                        JavaScript.`,
-                        `Collaborate with graphic designers, marketing 
-                        teams, and other developers to create innovative 
-                        and attractive websites for users.`,
-                    ],
-                },
-                {
-                    title: "Developer",
-                    position: "Developer",
-                    company: "Alfa",
-                    range: "May 2019 - November 2019",
-                    description: [
-                        `Designing and developing report automation solutions 
-                        using Google Apps Script for various Google applications 
-                        such as Google Sheets, Google Drive, Google Docs, and others.`,
-                        `Maintaining and improving existing report automation 
-                        solutions by making updates and adjustments as needed.`,
-                        `Designing and developing websites using WordPress, working 
-                        with custom themes and plugins to fit the client's needs.`,
-                        `Designing and developing chatbots for platforms such as 
-                        ManyChat and Dialogflow, ensuring that the chatbots are 
-                        customized to meet the clients' requirements.`,
+                        `Developed an integration service with SDK DI API SAP B1, 
+                        enabling ERP connectivity to record and display sales by vendor, 
+                        optimizing workflow efficiency.`,
+                        `Developed a mobile application consuming this service, 
+                        empowering sales representatives to:
+                        1. View product lists and place orders directly from the app.
+                        2. Check the status of your order in real-time.`
                     ],
                 },
             ],
         },
-        works: {
-            title: "Some Things I’ve Built",
-            work: [
-                {
-                    title: "Virtual Psychological Assistant",
-                    description:
-                        `This is a software designed to provide emotional and psychological support 
-                        through a simulated online conversation. The integration of WhatsApp API allows 
-                        the assistant to be available on the world's most popular instant messaging 
-                        application, making it accessible and easy to use for users. In addition, 
-                        the integration of OpenAI API, an advanced artificial intelligence platform, 
-                        allows the assistant to maintain fluid and personalized conversations 
-                        and offer accurate and contextual responses to the specific needs of each user.`,
-                    ..._works[0]
-                },
-                {
-                    title: "Chat Room",
-                    description:
-                        `It is a real-time chat application with a modern and efficient architecture 
-                        that allows users to communicate quickly and easily in online groups. Everything 
-                        is built with Angular and Firebase.`,
-                    ..._works[1]
+        // works: {
+        //     title: "Some Things I’ve Built",
+        //     work: [
+        //         {
+        //             title: "Virtual Psychological Assistant",
+        //             description:
+        //                 `This is a software designed to provide emotional and psychological support 
+        //                 through a simulated online conversation. The integration of WhatsApp API allows 
+        //                 the assistant to be available on the world's most popular instant messaging 
+        //                 application, making it accessible and easy to use for users. In addition, 
+        //                 the integration of OpenAI API, an advanced artificial intelligence platform, 
+        //                 allows the assistant to maintain fluid and personalized conversations 
+        //                 and offer accurate and contextual responses to the specific needs of each user.`,
+        //             ..._works[0]
+        //         },
+        //         {
+        //             title: "Chat Room",
+        //             description:
+        //                 `It is a real-time chat application with a modern and efficient architecture 
+        //                 that allows users to communicate quickly and easily in online groups. Everything 
+        //                 is built with Angular and Firebase.`,
+        //             ..._works[1]
 
-                },
-                {
-                    title: "GPS Monitoring System for Public Transportation",
-                    description:
-                        `A system that allows for real-time tracking of public transportation 
-                        vehicles through GPS technology. Users can view the vehicles' 
-                        location on a map and obtain real-time information on their 
-                        trajectory, speed, and estimated time of arrival. Additionally, 
-                        the system can generate alerts for administrators in case of delays, 
-                        route changes, or technical issues with the vehicles. This type 
-                        of system can improve the efficiency and safety of public 
-                        transportation, as well as provide a better experience for users.`,
-                    ..._works[2]
+        //         },
+        //         {
+        //             title: "GPS Monitoring System for Public Transportation",
+        //             description:
+        //                 `A system that allows for real-time tracking of public transportation 
+        //                 vehicles through GPS technology. Users can view the vehicles' 
+        //                 location on a map and obtain real-time information on their 
+        //                 trajectory, speed, and estimated time of arrival. Additionally, 
+        //                 the system can generate alerts for administrators in case of delays, 
+        //                 route changes, or technical issues with the vehicles. This type 
+        //                 of system can improve the efficiency and safety of public 
+        //                 transportation, as well as provide a better experience for users.`,
+        //             ..._works[2]
 
-                },
-                {
-                    title: "My portfolio",
-                    description:
-                        `A website designed to showcase my work and skills as a software developer. 
-                        It was built using React, which provides an efficient way to create 
-                        interactive and responsive user interfaces.`,
-                    ..._works[3]
+        //         },
+        //         {
+        //             title: "My portfolio",
+        //             description:
+        //                 `A website designed to showcase my work and skills as a software developer. 
+        //                 It was built using React, which provides an efficient way to create 
+        //                 interactive and responsive user interfaces.`,
+        //             ..._works[3]
 
-                },
-                {
-                    title: "Munay",
-                    description:
-                        `"Munay" is a comprehensive couples' app that helps partners deepen their 
-                        relationship and strengthen their emotional connection. With unique features 
-                        such as the question section, personalized advice, and integration with ChatGPT, 
-                        this app is a valuable tool for any couple looking to enhance their relationship.`,
-                    ..._works[4]
+        //         },
+        //         {
+        //             title: "Munay",
+        //             description:
+        //                 `"Munay" is a comprehensive couples' app that helps partners deepen their 
+        //                 relationship and strengthen their emotional connection. With unique features 
+        //                 such as the question section, personalized advice, and integration with ChatGPT, 
+        //                 this app is a valuable tool for any couple looking to enhance their relationship.`,
+        //             ..._works[4]
 
-                },
-                /*{
-                    title: "3D Security Information Game",
-                    description:
-                        `3D Security Information Game page is a fun and educational way to learn 
-                        about online security and improve your skills in this crucial topic in 
-                        the current digital age.`,
-                    ..._works[5]
+        //         },
+        //         /*{
+        //             title: "3D Security Information Game",
+        //             description:
+        //                 `3D Security Information Game page is a fun and educational way to learn 
+        //                 about online security and improve your skills in this crucial topic in 
+        //                 the current digital age.`,
+        //             ..._works[5]
 
-                },
-                {
-                    title: "Spotify Stats",
-                    description:
-                        `An application that utilizes Spotify's API to display users' 
-                        music usage and playback statistics on a clean and modern user interface 
-                        created with Angular. The application also includes song and artist 
-                        recommendations based on user preferences.`,
-                    ..._works[6]
+        //         },
+        //         {
+        //             title: "Spotify Stats",
+        //             description:
+        //                 `An application that utilizes Spotify's API to display users' 
+        //                 music usage and playback statistics on a clean and modern user interface 
+        //                 created with Angular. The application also includes song and artist 
+        //                 recommendations based on user preferences.`,
+        //             ..._works[6]
 
-                }*/
+        //         }*/
 
-            ],
-        },
+        //     ],
+        // },
         // experiment: {
         //     title: "Here are some small experiments",
         //     experiments: [

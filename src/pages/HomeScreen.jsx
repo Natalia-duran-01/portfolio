@@ -3,7 +3,7 @@ import { Nav } from "./sections/Nav";
 import { Banner } from "./sections/Banner";
 import { About } from "./sections/About";
 import { Experience } from "./sections/Experience";
-import { Works } from "./sections/Works";
+// import { Works } from "./sections/Works";
 // import { Experiment } from "./sections/Experiment";
 import { Contact } from "./sections/Contact";
 import { Footer } from "./sections/Footer";
@@ -51,7 +51,7 @@ export const HomeScreen = () => {
 
         MyScrollReveal.reveal(".about", configLeft);
         MyScrollReveal.reveal(".experience", configLeft);
-        MyScrollReveal.reveal(".works", configLeft);
+        // MyScrollReveal.reveal(".works", configLeft);
         // MyScrollReveal.reveal(".experiments", configLeft);
         MyScrollReveal.reveal(".contact-contend", configBottom);
 
@@ -80,7 +80,7 @@ export const HomeScreen = () => {
             <About />
             <Experience />
 
-            <Works />
+            {/* <Works /> */}
             {/* <Experiment /> */}
             <Contact />
             <Footer />

@@ -23,7 +23,7 @@ export const Contact = () => {
 
                             <fieldset>
                                 <legend>
-                                    <span className="color-p">05.</span> {languaje.contact.title}
+                                    <span className="color-p">03.</span> {languaje.contact.title}
                                 </legend>
                             </fieldset>
                             <h2 className='title'>
