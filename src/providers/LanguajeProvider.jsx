@@ -3,125 +3,125 @@ import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import { BiCheck, BiCheckDouble } from "react-icons/bi";
 import { RiCodepenFill } from "react-icons/ri";
 
-const _experiment = [
-    {
-        tecnology: ["CSS", "HTML"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/RweGqBa",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/RweGqBa",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML", "JS"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/qBJqmGy",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/qBJqmGy",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML", "JS"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/XWxNzGo",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/XWxNzGo",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/KKGNooX",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/KKGNooX",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML", "JS"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/poxNMXm",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/poxNMXm",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML", "JS"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/mdzRqYJ",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/mdzRqYJ",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML", "JS"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/bGmgKoz",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/bGmgKoz",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/OJBWwEy",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/OJBWwEy",
-                icon: AiOutlineLink,
-            },
-        ]
-    },
-    {
-        tecnology: ["CSS", "HTML", "JS"],
-        links: [
-            {
-                link: "https://codepen.io/isaiahsalah/pen/gOBgjqa",
-                icon: RiCodepenFill,
-            },
-            {
-                link: "https://codepen.io/isaiahsalah/full/gOBgjqa",
-                icon: AiOutlineLink,
-            },
-        ]
-    }
-]
+// const _experiment = [
+//     {
+//         tecnology: ["CSS", "HTML"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/RweGqBa",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/RweGqBa",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML", "JS"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/qBJqmGy",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/qBJqmGy",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML", "JS"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/XWxNzGo",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/XWxNzGo",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/KKGNooX",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/KKGNooX",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML", "JS"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/poxNMXm",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/poxNMXm",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML", "JS"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/mdzRqYJ",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/mdzRqYJ",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML", "JS"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/bGmgKoz",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/bGmgKoz",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/OJBWwEy",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/OJBWwEy",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     },
+//     {
+//         tecnology: ["CSS", "HTML", "JS"],
+//         links: [
+//             {
+//                 link: "https://codepen.io/isaiahsalah/pen/gOBgjqa",
+//                 icon: RiCodepenFill,
+//             },
+//             {
+//                 link: "https://codepen.io/isaiahsalah/full/gOBgjqa",
+//                 icon: AiOutlineLink,
+//             },
+//         ]
+//     }
+// ]
 const _works = [
     {
         tecnology: ["OpenAI-API", "Whatsapp-API", "Python", "Flask", "MongoDB"],
@@ -326,10 +326,10 @@ const languajeLabels = [
                 title: "Trabajos",
                 link: "works",
             },
-            {
-                title: "Experimentos",
-                link: "experiments",
-            },
+            // {
+            //     title: "Experimentos",
+            //     link: "experiments",
+            // },
             {
                 title: "Contacto",
                 link: "contact",
@@ -580,48 +580,48 @@ const languajeLabels = [
 
             ],
         },
-        experiment: {
-            title: "Algunos pequeños experimentos",
-            experiments: [
-                {
-                    title: "Efecto de Ruido al desplazarse",
-                    ..._experiment[0]
-                },
-                {
-                    title: "Efecto de hacker en texto",
-                    ..._experiment[1]
-                },
-                {
-                    title: "Efecto de Blur en el mouse",
-                    ..._experiment[2]
-                },
-                {
-                    title: "Efecto de escritura",
-                    ..._experiment[3]
-                },
-                {
-                    title: "Efecto de Sombra Dinamica",
-                    ..._experiment[4]
-                },
-                {
-                    title: "Paint con JS",
-                    ..._experiment[5]
-                },
-                {
-                    title: "Efecto Parallax al hacer scroll",
-                    ..._experiment[6]
-                },
-                {
-                    title: "Efecto al desplazarse por un botón",
-                    ..._experiment[7]
-                }
-                ,
-                {
-                    title: "Efecto de Cursor dentro de un texto",
-                    ..._experiment[8]
-                }
-            ],
-        },
+        // experiment: {
+        //     title: "Algunos pequeños experimentos",
+        //     experiments: [
+        //         {
+        //             title: "Efecto de Ruido al desplazarse",
+        //             ..._experiment[0]
+        //         },
+        //         {
+        //             title: "Efecto de hacker en texto",
+        //             ..._experiment[1]
+        //         },
+        //         {
+        //             title: "Efecto de Blur en el mouse",
+        //             ..._experiment[2]
+        //         },
+        //         {
+        //             title: "Efecto de escritura",
+        //             ..._experiment[3]
+        //         },
+        //         {
+        //             title: "Efecto de Sombra Dinamica",
+        //             ..._experiment[4]
+        //         },
+        //         {
+        //             title: "Paint con JS",
+        //             ..._experiment[5]
+        //         },
+        //         {
+        //             title: "Efecto Parallax al hacer scroll",
+        //             ..._experiment[6]
+        //         },
+        //         {
+        //             title: "Efecto al desplazarse por un botón",
+        //             ..._experiment[7]
+        //         }
+        //         ,
+        //         {
+        //             title: "Efecto de Cursor dentro de un texto",
+        //             ..._experiment[8]
+        //         }
+        //     ],
+        // },
         contact: {
             title: "¿Y ahora?",
             subtitle: "Ponete en contacto",
@@ -650,10 +650,10 @@ const languajeLabels = [
                 title: "Works",
                 link: "works",
             },
-            {
-                title: "Experiments",
-                link: "experiments",
-            },
+            // {
+            //     title: "Experiments",
+            //     link: "experiments",
+            // },
             {
                 title: "Contact",
                 link: "contact",
@@ -900,48 +900,48 @@ const languajeLabels = [
 
             ],
         },
-        experiment: {
-            title: "Here are some small experiments",
-            experiments: [
-                {
-                    title: "Noise Hover Effect",
-                    ..._experiment[0]
-                },
-                {
-                    title: "Hacker Effect On Text",
-                    ..._experiment[1]
-                },
-                {
-                    title: "Blur Effect On Mouse",
-                    ..._experiment[2]
-                },
-                {
-                    title: "Writing Effect",
-                    ..._experiment[3]
-                },
-                {
-                    title: "Dynamic Shadow Effect",
-                    ..._experiment[4]
-                },
-                {
-                    title: "Paint With JS",
-                    ..._experiment[5]
-                },
-                {
-                    title: "Parallax Effect When Scrolling",
-                    ..._experiment[6]
-                },
-                {
-                    title: "Effect When Hovering A Button",
-                    ..._experiment[7]
-                }
-                ,
-                {
-                    title: "Cursor Effect Within A Text",
-                    ..._experiment[8]
-                }
-            ],
-        },
+        // experiment: {
+        //     title: "Here are some small experiments",
+        //     experiments: [
+        //         {
+        //             title: "Noise Hover Effect",
+        //             ..._experiment[0]
+        //         },
+        //         {
+        //             title: "Hacker Effect On Text",
+        //             ..._experiment[1]
+        //         },
+        //         {
+        //             title: "Blur Effect On Mouse",
+        //             ..._experiment[2]
+        //         },
+        //         {
+        //             title: "Writing Effect",
+        //             ..._experiment[3]
+        //         },
+        //         {
+        //             title: "Dynamic Shadow Effect",
+        //             ..._experiment[4]
+        //         },
+        //         {
+        //             title: "Paint With JS",
+        //             ..._experiment[5]
+        //         },
+        //         {
+        //             title: "Parallax Effect When Scrolling",
+        //             ..._experiment[6]
+        //         },
+        //         {
+        //             title: "Effect When Hovering A Button",
+        //             ..._experiment[7]
+        //         }
+        //         ,
+        //         {
+        //             title: "Cursor Effect Within A Text",
+        //             ..._experiment[8]
+        //         }
+        //     ],
+        // },
         contact: {
             title: "And now?",
             subtitle: "Get in touch",

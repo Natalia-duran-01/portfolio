@@ -4,7 +4,7 @@ import { Banner } from "./sections/Banner";
 import { About } from "./sections/About";
 import { Experience } from "./sections/Experience";
 import { Works } from "./sections/Works";
-import { Experiment } from "./sections/Experiment";
+// import { Experiment } from "./sections/Experiment";
 import { Contact } from "./sections/Contact";
 import { Footer } from "./sections/Footer";
 import MyScrollReveal from "../components/MyScrollReveal";
@@ -52,7 +52,7 @@ export const HomeScreen = () => {
         MyScrollReveal.reveal(".about", configLeft);
         MyScrollReveal.reveal(".experience", configLeft);
         MyScrollReveal.reveal(".works", configLeft);
-        MyScrollReveal.reveal(".experiments", configLeft);
+        // MyScrollReveal.reveal(".experiments", configLeft);
         MyScrollReveal.reveal(".contact-contend", configBottom);
 
         /*languaje.menu.map((men, i) => {
@@ -81,7 +81,7 @@ export const HomeScreen = () => {
             <Experience />
 
             <Works />
-            <Experiment />
+            {/* <Experiment /> */}
             <Contact />
             <Footer />
             <img className="backgroud-image-app" src="./assets/images/socrates.jpg" alt="UwU" />
